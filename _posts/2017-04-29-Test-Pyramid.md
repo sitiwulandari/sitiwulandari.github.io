@@ -11,5 +11,5 @@ Test Pyramid adalah sebuah konsep perkembangan yang bertujuan untuk mempersingka
 ![Pyramid](http://res.cloudinary.com/deshqivuj/image/upload/v1493404061/maven-eclipse/pyramid.png)
 
 #### Unit Test :
-  * Kenapa * Pastikan code yang dikembangkan dengan benar
+  * Kenapa* Pastikan code yang dikembangkan dengan benar
   * *
