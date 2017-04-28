@@ -11,4 +11,4 @@ Saya akan menjelaskan tentang instalasi Maven dan integrasinya di Eclipse
 * Item 2
 * Item 3
 
-![Lalala](http://res.cloudinary.com/deshqivuj/image/upload/v1493380992/sample.jpg)
+![Lalala](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,e_tint,h_150,w_200/v1493380992/sample.jpg)
