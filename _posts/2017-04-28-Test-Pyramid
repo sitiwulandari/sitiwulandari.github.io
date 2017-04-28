@@ -8,7 +8,7 @@ title: Base for Test Strategy
 
 Test Pyramid adalah sebuah konsep perkembangan yang bertujuan untuk mempersingkat siklus umpan balik, untuk tim yang baru mulai automated testing harus sering mengkondisikan setiap pengujian yang luas. Setiap pengecekan harus punya banyak test case dalam kondisi waktu yang singkat.
 
-![Pyramid]http://res.cloudinary.com/deshqivuj/image/upload/v1493404061/maven-eclipse/pyramid.png
+![Pyramid](http://res.cloudinary.com/deshqivuj/image/upload/v1493404061/maven-eclipse/pyramid.png)
 
 #### Unit Test :
   * Kenapa * Pastikan code yang dikembangkan dengan benar
