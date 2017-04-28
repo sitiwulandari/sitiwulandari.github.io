@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Instalasi Maven dan integrasinya di Eclipse
+title: Base for Test Strategy 
 ---
 
-## Prakata
+### Test Pyramid
+#### Apa itu test Pyramid ?
 
-Saya akan menjelaskan tentang instalasi Maven dan integrasinya di Eclipse
+Test Pyramid adalah sebuah konsep perkembangan yang bertujuan untuk mempersingkat siklus umpan balik, untuk tim yang baru mulai automated testing harus sering mengkondisikan setiap pengujian yang luas. Setiap pengecekan harus punya banyak test case dalam kondisi waktu yang singkat.
 
-* Item 1
-* Item 2
-* Item 3
+![Pyramid]http://res.cloudinary.com/deshqivuj/image/upload/v1493404061/maven-eclipse/pyramid.png
 
-![Lalala](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,e_tint,h_150,w_200/v1493380992/sample.jpg)
+#### Unit Test :
+  * Kenapa * Pastikan code yang dikembangkan dengan benar
+  * *
