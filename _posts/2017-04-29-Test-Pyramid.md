@@ -12,4 +12,7 @@ Test Pyramid adalah sebuah konsep perkembangan yang bertujuan untuk mempersingka
 
 #### Unit Test :
   *Kenapa* Pastikan code yang dikembangkan dengan benar
-  * *
+  
+  
+#### Integration Test
+#### BDD Ecceptance Test
