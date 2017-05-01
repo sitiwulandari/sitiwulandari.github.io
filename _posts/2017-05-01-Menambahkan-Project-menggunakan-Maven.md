@@ -4,7 +4,7 @@ title: Menambahkan Project di Maven
 ---
 
 
-### Menambahkan Project di Maven 
+### Latihan menambahkan Project menggunakan Maven
 
 1. Buka *cmd/git* 
 
