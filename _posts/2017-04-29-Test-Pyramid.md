@@ -17,19 +17,19 @@ Test Pyramid adalah sebuah konsep perkembangan yang bertujuan untuk mempersingka
 #### Integration Test
 
 #### BDD Ecceptance Test
-*Kenapa* : Cover iterasi dan kontrak diantara didalam system dan diluar system 
+**Kenapa** : Cover iterasi dan kontrak diantara didalam system dan diluar system 
 
-*Apa* : Level selanjutnya dari test service tersebut
+**Apa** : Level selanjutnya dari test service tersebut
 
-*Kapan* : Perkembangan Feature baru dan Siap untuk ditest 
+**Kapan** : Perkembangan Feature baru dan Siap untuk ditest 
 
-*Brp % dari total keseluruhan* : 10-15 % dari step case
+**Brp % dari total keseluruhan** : 10-15 % dari step case
 
-*Dimana* : Test environment dan CI
+**Dimana** : Test environment dan CI
 
-*Frequency* : Dieksekusi beberapa kali dalam sehari
+**Frequency** : Dieksekusi beberapa kali dalam sehari
 
-*Penting* : Tes penerimaan diwajibkan untuk secara otomatis memeriksa apakah harapan pengguna akan terpenuhi atau tidak
+**Penting** : Tes penerimaan diwajibkan untuk secara otomatis memeriksa apakah harapan pengguna akan terpenuhi atau tidak
 
 
 
