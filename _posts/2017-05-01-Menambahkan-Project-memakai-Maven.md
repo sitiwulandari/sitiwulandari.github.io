@@ -12,6 +12,6 @@ title: Menambahkan Project di Maven
 
 3. Tambahkan source seperti berikut di *cmd*:
 
-![source](http://res.cloudinary.com/deshqivuj/image/upload/v1493639824/maven-eclipse/2017-05-01_18-54-51.png)
+![source](http://res.cloudinary.com/deshqivuj/image/upload/v1493641968/maven-eclipse/2017-05-01_19-32-00.png)
 ![gitbash](http://res.cloudinary.com/deshqivuj/image/upload/v1493639857/maven-eclipse/2017-05-01_18-50-52.png)
 
