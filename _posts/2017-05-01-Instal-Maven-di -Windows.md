@@ -16,7 +16,7 @@ dahulu buat folder maven didalam apache tersebut**
 ![add folder](http://res.cloudinary.com/deshqivuj/image/upload/v1493634481/maven-eclipse/2017-05-01_17-17-32.png)
 ![unzip file maven](http://res.cloudinary.com/deshqivuj/image/upload/v1493634491/maven-eclipse/2017-05-01_17-17-59.png)
 
-**3. Tambahkan *M2_HOME* dan *MAVEN_HOME* di Environment Variables **
+**3. Tambahkan *M2_HOME* dan *MAVEN_HOME* di Environment Variables**
 
   * Windows-> properties->advanced system setting ->Environment Variables 
   
