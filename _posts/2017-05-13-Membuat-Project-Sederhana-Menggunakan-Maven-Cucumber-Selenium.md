@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Latihan check testing Login github menggunakan Cucumber Maven Selenium
+title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
 ---
 
-Membuat-Project-Sederhana-Menggunakan-Maven-Cucumber-Selenium
+
 ### Latihan check testing Login github menggunakan Cucumber maven selenium
 
 1. Pastikan Aplikasi dibawah ini sudah terinstal:
