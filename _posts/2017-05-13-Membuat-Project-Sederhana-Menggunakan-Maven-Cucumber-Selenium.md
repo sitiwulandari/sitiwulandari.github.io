@@ -158,9 +158,33 @@ public class RunCukesLogin {
    * Kemudian Klik Finish
    * Kita akan mengetes page **https://www.github.com**
    * Buat Scenario seperti dibawah ini 
+   
 ```feature
+Feature: As user want to check Screen and user can login 
+	
+	Scenario: user can click sign in without username & pass
+		Given user can see homepage github 
+		When user can click link Sign in 
+		Then user is displayed login screen 
+		
+	Scenario: user want  back to homepage 
+		Given user can back to homepage
+		Then user is displayed homepage screen
+		
+	Scenario: user want to login with use username & pass
+		Given user want to login 
+		When user can input username & pass
+		Then user can see dashboard github
 
 ```
 
+![scenario](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_385/v1494759050/maven-eclipse/2017-05-14_17-41-38.png)
+
+**Keterangan Scenario diatas :**
+    1. User membuka halaman homepage github dan dapat mengklik *Sign in* tanpa username & pass
+    
+    2. User ingin kembali ke halaman homepage github yang *sebelumnya berada dihalaman Login github*
+    
+    3. User ingin Login dengan username dan password 
+
    
-	
