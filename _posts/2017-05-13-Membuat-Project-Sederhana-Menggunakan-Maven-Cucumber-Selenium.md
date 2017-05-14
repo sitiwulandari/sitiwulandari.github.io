@@ -39,3 +39,9 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
 3. Buka file **Pom.xml** dibawah folder target
 
     ![pom](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_207/v1494740342/maven-eclipse/2017-05-14_12-35-16.png)
+    
+4. Tambahkan source di pom.xml seperti dibawah ini : 
+
+   ```pom
+   
+   ```
