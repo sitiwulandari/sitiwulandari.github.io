@@ -132,14 +132,11 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
    * Klik New --> Class --> Name: *RunCukes*
    * Tambahkan source seperti dibawah ini:
  
-   ```java
-   
-   package cucumber.selenium.StepDef;
-
+```java
+package cucumber.selenium.StepDef;
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/java/cucumber/selenium/features",
@@ -150,7 +147,6 @@ import cucumber.api.junit.Cucumber;
 		}
 		)
 public class RunCukesLogin {
-
 }
 ```
   
