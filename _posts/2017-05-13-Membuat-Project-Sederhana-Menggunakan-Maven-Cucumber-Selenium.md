@@ -114,7 +114,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
   </project>
  ```
  
- 5. Buatlah struktur project seperti dibawah ini :
+5. Buatlah struktur project seperti dibawah ini :
    * Membuat Package didalam *src/tets/java*
    * Klik kanan di *src/tets/java*
    * Klik *New Package* 
@@ -181,10 +181,11 @@ Feature: As user want to check Screen and user can login
 ![scenario](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_385/v1494759050/maven-eclipse/2017-05-14_17-41-38.png)
 
 **Keterangan Scenario diatas :**
-    1. User membuka halaman homepage github dan dapat mengklik *Sign in* tanpa username & pass
+
+   1. User membuka halaman homepage github dan dapat mengklik *Sign in* tanpa username & pass
     
-    2. User ingin kembali ke halaman homepage github yang *sebelumnya berada dihalaman Login github*
+   2. User ingin kembali ke halaman homepage github yang *sebelumnya berada dihalaman Login github*
     
-    3. User ingin Login dengan username dan password 
+   3. User ingin Login dengan username dan password 
 
    
