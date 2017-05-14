@@ -14,17 +14,17 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
     * Plugin Cucumber sudah terinstal dieclipse
 2. Buka aplikasi eclipse terlebih dahulu kemudian ikutin step seperti dibawah ini:
 
-      * Klik File --> NEW
-      * Pilih --> OTHERS
+      * Klik File --> **NEW**
+      * Pilih --> **OTHERS**
       
         ![new](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_282/v1494740343/maven-eclipse/2017-05-14_12-02-35.png)
       
-      * Kemudian pilih folder MAVEN dan pilih MAVEN PROJECT
+      * Kemudian pilih folder **MAVEN** dan pilih **MAVEN PROJECT**
       
         ![maven](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_357/v1494740347/maven-eclipse/2017-05-14_12-03-32.png)
        
-      * Centang create simple project 
-      * Kemudian Klik button Next 
+      * Centang **create simple project** 
+      * Kemudian Klik button **Next**
       
         ![d](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_383/v1494740343/maven-eclipse/2017-05-14_12-04-15.png)
       
@@ -36,6 +36,6 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
          
         ![d](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_316/v1494740343/maven-eclipse/2017-05-14_12-05-53.png)
         
-3. Buka file Pom.xml dibawah folder target
+3. Buka file **Pom.xml** dibawah folder target
 
     ![pom](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_207/v1494740342/maven-eclipse/2017-05-14_12-35-16.png)
