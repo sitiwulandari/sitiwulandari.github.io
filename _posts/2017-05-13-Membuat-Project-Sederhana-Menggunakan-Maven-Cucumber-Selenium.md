@@ -114,8 +114,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
   </project>
  ```
  
- 
-5. Buatlah struktur project seperti dibawah ini :
+ 5. Buatlah struktur project seperti dibawah ini :
    * Membuat Package didalam *src/tets/java*
    * Klik kanan di *src/tets/java*
    * Klik *New Package* 
@@ -123,6 +122,10 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
       ![new package](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_464/v1494741762/maven-eclipse/2017-05-14_13-00-11.png)
       
    * Inputkan nama package seperti dibawah ini :
-      **cucumber.selenium.features**
+   
+      **cucumber.selenium.features** , **cucumber.selenium.selenium** , **cucumber.selenium.StepDef**
       
       ![](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_383/v1494741766/maven-eclipse/2017-05-14_13-01-15.png)
+      
+6. Kemudian buat Junit configurasi class untuk memanggil file feature dan file StepDef
+   * Tambahkan file RunCukes
