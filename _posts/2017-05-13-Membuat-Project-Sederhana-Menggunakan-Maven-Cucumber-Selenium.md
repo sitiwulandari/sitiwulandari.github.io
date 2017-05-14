@@ -128,4 +128,29 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
       ![](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_383/v1494741766/maven-eclipse/2017-05-14_13-01-15.png)
       
 6. Kemudian buat Junit configurasi class untuk memanggil file feature dan file StepDef
-   * Tambahkan file **RunCukes.class** didalam package **cucumber.selenium.StepDef**
+   * Tambahkan file class **RunCukes.java** didalam package **cucumber.selenium.StepDef**
+   * Klik New --> Class --> Name: *RunCukes*
+   * Tambahkan source seperti dibawah ini:
+ 
+   ```java
+   
+   package cucumber.selenium.StepDef;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="src/test/java/cucumber/selenium/features",
+		glue ="cucumber.selenium.StepDef",
+		plugin= {
+			"pretty",
+			"html:target/cucumber"
+		}
+		)
+public class RunCukesLogin {
+
+}
+```
+  
