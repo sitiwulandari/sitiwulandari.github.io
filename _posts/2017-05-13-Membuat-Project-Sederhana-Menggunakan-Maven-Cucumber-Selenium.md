@@ -114,7 +114,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
   </project>
  ```
  
-5. Buatlah struktur project seperti dibawah ini :
+ 5. Buatlah struktur project seperti dibawah ini :
    * Membuat Package didalam *src/tets/java*
    * Klik kanan di *src/tets/java*
    * Klik *New Package* 
