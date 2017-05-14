@@ -149,4 +149,18 @@ import cucumber.api.junit.Cucumber;
 public class RunCukesLogin {
 }
 ```
-  
+7. Buat Scenario test didalam package **com.selenium.StepDef** 
+   * Klik kanan dipackage **com.selenium.StepDef** 
+   * Klik *New* --> *File* 
+   ![new-file](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_456/v1494755421/maven-eclipse/2017-05-14_16-49-03.png)
+   * Tambahkan file dengan : *LoginGithub.feature*
+     ![feature](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_387/v1494757138/maven-eclipse/2017-05-14_16-52-45.png)
+   * Kemudian Klik Finish
+   * Kita akan mengetes page **https://www.github.com**
+   * Buat Scenario seperti dibawah ini 
+```feature
+
+```
+
+   
+	
