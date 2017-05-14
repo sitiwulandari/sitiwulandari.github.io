@@ -42,7 +42,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
     
 4. Tambahkan source di pom.xml seperti dibawah ini : 
 
-   ```pom
+   ```xml
             <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.book.cucumber</groupId>
@@ -117,13 +117,13 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
    ```
    
 5. Buatlah struktur project seperti dibawah ini :
-   * Membuat Package didalam *src/tets/java*
-   * Klik kanan di *src/tets/java*
-   * Klik *New Package* 
+  * Membuat Package didalam *src/tets/java*
+  * Klik kanan di *src/tets/java*
+  * Klik *New Package* 
    
       ![new package](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_464/v1494741762/maven-eclipse/2017-05-14_13-00-11.png)
       
-   * Inputkan nama package seperti dibawah ini :
+  * Inputkan nama package seperti dibawah ini :
       **cucumber.selenium.features**
       
       ![](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_383/v1494741766/maven-eclipse/2017-05-14_13-01-15.png)
