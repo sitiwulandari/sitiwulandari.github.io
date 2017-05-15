@@ -186,9 +186,9 @@ Feature: As user want to check Screen and user can login
 
  **Keterangan Scenario diatas :**
 
-    1. User membuka halaman homepage github dan dapat mengklik *Sign in* tanpa username & pass
+    1. User membuka halaman homepage github dan dapat mengklik SIGN IN tanpa username & pass
     
-    2. User ingin kembali ke halaman homepage github yang *sebelumnya berada dihalaman Login github*
+    2. User ingin kembali ke halaman homepage github yang sebelumnya berada dihalaman Login github
     
     3. User ingin Login dengan username dan password 
 
@@ -399,4 +399,9 @@ public class StepDefinitionLogin {
 }
 
 ```
-12. Kemudian jalankan **mvn clean install** di CMD --> untuk mengjalankan si file scenario tersbut
+12. Kemudian jalankan **mvn clean install** di CMD --> untuk mengjalankan si file scenario tersebut
+	* masuk ke console
+	* Kemudian masuk ke file project yang telah anda tambahkan 
+	* jalankan **mvn clean install** 
+	* Setelah itu akan membuka browser otomatis page github tersebut sesuai dengan scenario yang telah dibuat
+	
