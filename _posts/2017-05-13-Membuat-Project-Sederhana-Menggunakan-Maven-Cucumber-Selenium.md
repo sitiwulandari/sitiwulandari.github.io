@@ -114,7 +114,8 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
   </project>
  ```
  
- 5. Buatlah struktur project seperti dibawah ini :
+5. Buatlah struktur project seperti dibawah ini :
+ 
    * Membuat Package didalam *src/tets/java*
    * Klik kanan di *src/tets/java*
    * Klik *New Package* 
@@ -188,4 +189,8 @@ Feature: As user want to check Screen and user can login
     
    3. User ingin Login dengan username dan password 
 
+8. Run Scenario tersebut:
+
+   * Klik kanan --> pilih *Run As* --> *Cucumber Feature*
    
+   ![test](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_373/v1494761156/9_serwkr.png)
