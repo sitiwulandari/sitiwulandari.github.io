@@ -163,24 +163,24 @@ public class RunCukesLogin {
    * Kita akan mengetes page **https://www.github.com**
    * Buat Scenario seperti dibawah ini 
    
-```feature
-Feature: As user want to check Screen and user can login 
-	
-	Scenario: user can click sign in without username & pass
-		Given user can see homepage github 
-		When user can click link Sign in 
-		Then user is displayed login screen 
-		
-	Scenario: user want  back to homepage 
-		Given user can back to homepage
-		Then user is displayed homepage screen
-		
-	Scenario: user want to login with use username & pass
-		Given user want to login 
-		When user can input username & pass
-		Then user can see dashboard github
+		```feature
+		Feature: As user want to check Screen and user can login 
 
-```
+			Scenario: user can click sign in without username & pass
+				Given user can see homepage github 
+				When user can click link Sign in 
+				Then user is displayed login screen 
+
+			Scenario: user want  back to homepage 
+				Given user can back to homepage
+				Then user is displayed homepage screen
+
+			Scenario: user want to login with use username & pass
+				Given user want to login 
+				When user can input username & pass
+				Then user can see dashboard github
+
+		```
 
 ![scenario](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_385/v1494759050/maven-eclipse/2017-05-14_17-41-38.png)
 
@@ -203,202 +203,202 @@ Feature: As user want to check Screen and user can login
    
 9. Buat file **StepDefinitionLogin.java** didalam package **com.selenium.StepDef** , kemudian copy definisi error yang sebelumnya dirun cucumber .feature 
 
-```definisi
-package cucumber.selenium.StepDef;
+		```definisi
+		package cucumber.selenium.StepDef;
 
-import java.net.MalformedURLException;
+		import java.net.MalformedURLException;
 
-import cucumber.selenium.selenium.seleniumFunction;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+		import cucumber.selenium.selenium.seleniumFunction;
+		import cucumber.api.PendingException;
+		import cucumber.api.java.en.Given;
+		import cucumber.api.java.en.Then;
+		import cucumber.api.java.en.When;
 
-public class StepDefinitionLogin {
-	
-	
-	@Given("^user can see homepage github$")
-	public void user_can_see_homepage_github() tthrows Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
+		public class StepDefinitionLogin {
 
-	@When("^user can click link Sign in$")
-	public void user_can_click_link_Sign_in() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
 
-	@Then("^user is displayed login screen$")
-	public void user_is_displayed_login_screen() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
+			@Given("^user can see homepage github$")
+			public void user_can_see_homepage_github() tthrows Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
 
-	@Given("^user can back to homepage$")
-	public void user_can_back_to_homepage()throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
+			@When("^user can click link Sign in$")
+			public void user_can_click_link_Sign_in() throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
 
-	@Then("^user is displayed homepage screen$")
-	public void user_is_displayed_homepage_screen() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
+			@Then("^user is displayed login screen$")
+			public void user_is_displayed_login_screen() throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
 
-	@Given("^user want to login$")
-	public void user_want_to_login()throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
+			@Given("^user can back to homepage$")
+			public void user_can_back_to_homepage()throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
 
-	@When("^user can input username & pass$")
-	public void user_can_input_username_pass()throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
+			@Then("^user is displayed homepage screen$")
+			public void user_is_displayed_homepage_screen() throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
 
-	@Then("^user can see dashboard github$")
-	public void user_can_see_dashboard_github()throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-	}
+			@Given("^user want to login$")
+			public void user_want_to_login()throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
 
-}
+			@When("^user can input username & pass$")
+			public void user_can_input_username_pass()throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
 
-```
+			@Then("^user can see dashboard github$")
+			public void user_can_see_dashboard_github()throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+			throw new PendingException();
+			}
+
+		}
+
+		```
 10. Kemudian buat file **seleniumFuntion.java** didalam package **com.selenium.selenium**, file tersebut untuk mengatur driver browsernya dan membuat variabel-variabel setiap Step-stepnya. Berikut source code yang harus ditambahkan:
 
-```seleniumFuntion
-package cucumber.selenium.selenium;
+		```seleniumFuntion
+		package cucumber.selenium.selenium;
 
 
-import java.net.MalformedURLException;
-import java.util.concurrent.TimeUnit;
+		import java.net.MalformedURLException;
+		import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+		import org.openqa.selenium.chrome.ChromeDriver;
+		import org.openqa.selenium.By;
+		import org.openqa.selenium.WebDriver;
+		import org.openqa.selenium.support.ui.ExpectedConditions;
+		import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class seleniumFunction {
-	
-	public static WebDriver driver=null;
-	public static WebDriverWait waitVar=null;
-	
-	public static String baseURL="https://github.com";
-	
-	public void createDriver() throws MalformedURLException,InterruptedException{
-		System.setProperty("webDriver.chrome.driver","/home/sitiwulandari/chromedriver");
-		driver =  new ChromeDriver();
-		
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		
-		driver.get(baseURL);
-		
-		waitVar = new WebDriverWait(driver,15);
-	}
-	
-	public void tearDown(){
-		driver.quit();
-	}
-	
-	public void inhomepageDisplayed(){
-		driver.findElement(By.linkText("Sign in")).isDisplayed();
-		driver.findElement(By.className("jumbotron-home")).isDisplayed();
-	}
-	
-	public void clickSignin (){
-		driver.findElement(By.linkText("Sign in")).click();
-	}
-	
-	public void isDisplayedLogin(){
-		driver.findElement(By.linkText("Create an account")).isDisplayed();
-		driver.findElement(By.name("login")).isDisplayed();
-	}
-	
-	public void backhomepage(){
-		driver.findElement(By.className("header-logo")).click();
-	}
-	
-	public void loginUsernamePass(){
-		driver.findElement(By.name("login")).sendKeys("sitiwulan");
-		driver.findElement(By.name("password")).sendKeys("xxxxx");
-		driver.findElement(By.name("commit")).click();
-	}
-	
-	public void isDisplayedDashboard(){
-		driver.findElement(By.linkText("Pull requests")).isDisplayed();
-	}
-}
+		public class seleniumFunction {
 
-```
+			public static WebDriver driver=null;
+			public static WebDriverWait waitVar=null;
+
+			public static String baseURL="https://github.com";
+
+			public void createDriver() throws MalformedURLException,InterruptedException{
+				System.setProperty("webDriver.chrome.driver","/home/sitiwulandari/chromedriver");
+				driver =  new ChromeDriver();
+
+				driver.manage().window().maximize();
+				driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+				driver.get(baseURL);
+
+				waitVar = new WebDriverWait(driver,15);
+			}
+
+			public void tearDown(){
+				driver.quit();
+			}
+
+			public void inhomepageDisplayed(){
+				driver.findElement(By.linkText("Sign in")).isDisplayed();
+				driver.findElement(By.className("jumbotron-home")).isDisplayed();
+			}
+
+			public void clickSignin (){
+				driver.findElement(By.linkText("Sign in")).click();
+			}
+
+			public void isDisplayedLogin(){
+				driver.findElement(By.linkText("Create an account")).isDisplayed();
+				driver.findElement(By.name("login")).isDisplayed();
+			}
+
+			public void backhomepage(){
+				driver.findElement(By.className("header-logo")).click();
+			}
+
+			public void loginUsernamePass(){
+				driver.findElement(By.name("login")).sendKeys("sitiwulan");
+				driver.findElement(By.name("password")).sendKeys("xxxxx");
+				driver.findElement(By.name("commit")).click();
+			}
+
+			public void isDisplayedDashboard(){
+				driver.findElement(By.linkText("Pull requests")).isDisplayed();
+			}
+		}
+
+		```
 11. Setelah itu update **StepDefinitionLogin.java** silakan update seperti source code dibawah ini:
 
-```updatesourcecode
-package cucumber.selenium.StepDef;
+	```updatesourcecode
+	package cucumber.selenium.StepDef;
 
-import java.net.MalformedURLException;
+	import java.net.MalformedURLException;
 
-import cucumber.selenium.selenium.seleniumFunction;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+	import cucumber.selenium.selenium.seleniumFunction;
+	import cucumber.api.PendingException;
+	import cucumber.api.java.en.Given;
+	import cucumber.api.java.en.Then;
+	import cucumber.api.java.en.When;
 
-public class StepDefinitionLogin {
-	
-	seleniumFunction sf = new seleniumFunction();
-	@Given("^user can see homepage github$")
-	public void user_can_see_homepage_github() throws MalformedURLException,InterruptedException{
-		
-	    sf.createDriver();
-	    sf.inhomepageDisplayed();
+	public class StepDefinitionLogin {
+
+		seleniumFunction sf = new seleniumFunction();
+		@Given("^user can see homepage github$")
+		public void user_can_see_homepage_github() throws MalformedURLException,InterruptedException{
+
+		    sf.createDriver();
+		    sf.inhomepageDisplayed();
+		}
+
+		@When("^user can click link Sign in$")
+		public void user_can_click_link_Sign_in() {
+			sf.clickSignin();
+		}
+
+		@Then("^user is displayed login screen$")
+		public void user_is_displayed_login_screen(){
+			sf.isDisplayedLogin();
+		}
+
+		@Given("^user can back to homepage$")
+		public void user_can_back_to_homepage(){
+			sf.backhomepage();
+		}
+
+		@Then("^user is displayed homepage screen$")
+		public void user_is_displayed_homepage_screen() {
+			sf.inhomepageDisplayed();
+		}
+
+		@Given("^user want to login$")
+		public void user_want_to_login(){
+			sf.clickSignin();
+			sf.isDisplayedLogin();
+		}
+
+		@When("^user can input username & pass$")
+		public void user_can_input_username_pass(){
+			sf.loginUsernamePass();
+		}
+
+		@Then("^user can see dashboard github$")
+		public void user_can_see_dashboard_github(){
+			sf.isDisplayedDashboard();
+			sf.tearDown();
+		}
+
 	}
 
-	@When("^user can click link Sign in$")
-	public void user_can_click_link_Sign_in() {
-		sf.clickSignin();
-	}
-
-	@Then("^user is displayed login screen$")
-	public void user_is_displayed_login_screen(){
-		sf.isDisplayedLogin();
-	}
-
-	@Given("^user can back to homepage$")
-	public void user_can_back_to_homepage(){
-		sf.backhomepage();
-	}
-
-	@Then("^user is displayed homepage screen$")
-	public void user_is_displayed_homepage_screen() {
-		sf.inhomepageDisplayed();
-	}
-
-	@Given("^user want to login$")
-	public void user_want_to_login(){
-		sf.clickSignin();
-		sf.isDisplayedLogin();
-	}
-
-	@When("^user can input username & pass$")
-	public void user_can_input_username_pass(){
-		sf.loginUsernamePass();
-	}
-
-	@Then("^user can see dashboard github$")
-	public void user_can_see_dashboard_github(){
-		sf.isDisplayedDashboard();
-		sf.tearDown();
-	}
-
-}
-
-```
+	```
 12. Kemudian jalankan **mvn clean install** di CMD --> untuk mengjalankan si file scenario tersebut
 	* masuk ke console
 	* Kemudian masuk ke file project yang telah anda tambahkan 
