@@ -186,12 +186,13 @@ Feature: As user want to check Screen and user can login
 
  **Keterangan Scenario diatas :**
 
-   1. User membuka halaman homepage github dan dapat mengklik *Sign in* tanpa username & pass
+    1. User membuka halaman homepage github dan dapat mengklik *Sign in* tanpa username & pass
     
-   2. User ingin kembali ke halaman homepage github yang *sebelumnya berada dihalaman Login github*
+    2. User ingin kembali ke halaman homepage github yang *sebelumnya berada dihalaman Login github*
     
-   3. User ingin Login dengan username dan password 
-   
+    3. User ingin Login dengan username dan password 
+
+
 
 8. Run Scenario tersebut:
 
