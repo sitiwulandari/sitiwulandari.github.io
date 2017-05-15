@@ -112,7 +112,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
   	</plugins>
   </build>
   </project>
- 	```
+```
 	
 5. Buatlah struktur project seperti dibawah ini :
  
@@ -134,24 +134,25 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
    * Tambahkan file class **RunCukes.java** didalam package **cucumber.selenium.StepDef**
    * Klik New --> Class --> Name: *RunCukes*
    * Tambahkan source seperti dibawah ini:
- 
-			```java
-			package cucumber.selenium.StepDef;
-			import org.junit.runner.RunWith;
-			import cucumber.api.CucumberOptions;
-			import cucumber.api.junit.Cucumber;
-			@RunWith(Cucumber.class)
-			@CucumberOptions(
-					features="src/test/java/cucumber/selenium/features",
-					glue ="cucumber.selenium.StepDef",
-					plugin= {
-						"pretty",
-						"html:target/cucumber"
-					}
-					)
-			public class RunCukesLogin {
+  
+```java
+package cucumber.selenium.StepDef;
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="src/test/java/cucumber/selenium/features",
+		glue ="cucumber.selenium.StepDef",
+		plugin= {
+			"pretty",
+			"html:target/cucumber"
+				}
+				)
+public class RunCukesLogin {
 			}
-			```
+```
+			
 7. Buat Scenario test didalam package **com.selenium.StepDef** 
 
    * Klik kanan dipackage **com.selenium.StepDef** 
@@ -270,7 +271,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
 			```
 10. Kemudian buat file **seleniumFuntion.java** didalam package **com.selenium.selenium**, file tersebut untuk mengatur driver browsernya dan membuat variabel-variabel setiap Step-stepnya. Berikut source code yang harus ditambahkan:
 
-		```java
+	```java
 		package cucumber.selenium.selenium;
 
 
@@ -335,7 +336,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
 			}
 		}
 
-		```
+	```
 11. Setelah itu update **StepDefinitionLogin.java** silakan update seperti source code dibawah ini:
 
 	```java
