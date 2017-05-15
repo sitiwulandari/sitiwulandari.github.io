@@ -42,7 +42,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
     
 4. Tambahkan source di pom.xml seperti dibawah ini : 
 
-	 ```xml
+```xml
   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.book.cucumber</groupId>
@@ -135,23 +135,23 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
    * Klik New --> Class --> Name: *RunCukes*
    * Tambahkan source seperti dibawah ini:
  
-```java
-package cucumber.selenium.StepDef;
-import org.junit.runner.RunWith;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
-@RunWith(Cucumber.class)
-@CucumberOptions(
-		features="src/test/java/cucumber/selenium/features",
-		glue ="cucumber.selenium.StepDef",
-		plugin= {
-			"pretty",
-			"html:target/cucumber"
-		}
-		)
-public class RunCukesLogin {
-}
-```
+			```java
+			package cucumber.selenium.StepDef;
+			import org.junit.runner.RunWith;
+			import cucumber.api.CucumberOptions;
+			import cucumber.api.junit.Cucumber;
+			@RunWith(Cucumber.class)
+			@CucumberOptions(
+					features="src/test/java/cucumber/selenium/features",
+					glue ="cucumber.selenium.StepDef",
+					plugin= {
+						"pretty",
+						"html:target/cucumber"
+					}
+					)
+			public class RunCukesLogin {
+			}
+			```
 7. Buat Scenario test didalam package **com.selenium.StepDef** 
 
    * Klik kanan dipackage **com.selenium.StepDef** 
@@ -203,74 +203,74 @@ public class RunCukesLogin {
    
 9. Buat file **StepDefinitionLogin.java** didalam package **com.selenium.StepDef** , kemudian copy definisi error yang sebelumnya dirun cucumber .feature 
 
-		```definisi
-		package cucumber.selenium.StepDef;
+			```java
+			package cucumber.selenium.StepDef;
 
-		import java.net.MalformedURLException;
+			import java.net.MalformedURLException;
 
-		import cucumber.selenium.selenium.seleniumFunction;
-		import cucumber.api.PendingException;
-		import cucumber.api.java.en.Given;
-		import cucumber.api.java.en.Then;
-		import cucumber.api.java.en.When;
+			import cucumber.selenium.selenium.seleniumFunction;
+			import cucumber.api.PendingException;
+			import cucumber.api.java.en.Given;
+			import cucumber.api.java.en.Then;
+			import cucumber.api.java.en.When;
 
-		public class StepDefinitionLogin {
+			public class StepDefinitionLogin {
 
 
-			@Given("^user can see homepage github$")
-			public void user_can_see_homepage_github() tthrows Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
+				@Given("^user can see homepage github$")
+				public void user_can_see_homepage_github() tthrows Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
+				@When("^user can click link Sign in$")
+				public void user_can_click_link_Sign_in() throws Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
+				@Then("^user is displayed login screen$")
+				public void user_is_displayed_login_screen() throws Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
+				@Given("^user can back to homepage$")
+				public void user_can_back_to_homepage()throws Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
+				@Then("^user is displayed homepage screen$")
+				public void user_is_displayed_homepage_screen() throws Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
+				@Given("^user want to login$")
+				public void user_want_to_login()throws Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
+				@When("^user can input username & pass$")
+				public void user_can_input_username_pass()throws Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
+				@Then("^user can see dashboard github$")
+				public void user_can_see_dashboard_github()throws Throwable {
+				// Write code here that turns the phrase above into concrete actions
+				throw new PendingException();
+				}
+
 			}
 
-			@When("^user can click link Sign in$")
-			public void user_can_click_link_Sign_in() throws Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
-			}
-
-			@Then("^user is displayed login screen$")
-			public void user_is_displayed_login_screen() throws Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
-			}
-
-			@Given("^user can back to homepage$")
-			public void user_can_back_to_homepage()throws Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
-			}
-
-			@Then("^user is displayed homepage screen$")
-			public void user_is_displayed_homepage_screen() throws Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
-			}
-
-			@Given("^user want to login$")
-			public void user_want_to_login()throws Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
-			}
-
-			@When("^user can input username & pass$")
-			public void user_can_input_username_pass()throws Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
-			}
-
-			@Then("^user can see dashboard github$")
-			public void user_can_see_dashboard_github()throws Throwable {
-			// Write code here that turns the phrase above into concrete actions
-			throw new PendingException();
-			}
-
-		}
-
-		```
+			```
 10. Kemudian buat file **seleniumFuntion.java** didalam package **com.selenium.selenium**, file tersebut untuk mengatur driver browsernya dan membuat variabel-variabel setiap Step-stepnya. Berikut source code yang harus ditambahkan:
 
-		```seleniumFuntion
+		```java
 		package cucumber.selenium.selenium;
 
 
@@ -338,7 +338,7 @@ public class RunCukesLogin {
 		```
 11. Setelah itu update **StepDefinitionLogin.java** silakan update seperti source code dibawah ini:
 
-	```updatesourcecode
+	```java
 	package cucumber.selenium.StepDef;
 
 	import java.net.MalformedURLException;
