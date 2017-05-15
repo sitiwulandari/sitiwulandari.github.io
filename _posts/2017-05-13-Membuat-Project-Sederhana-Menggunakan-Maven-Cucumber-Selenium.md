@@ -191,6 +191,13 @@ Feature: As user want to check Screen and user can login
 
 8. Run Scenario tersebut:
 
-   * Klik kanan --> pilih *Run As* --> *Cucumber Feature*
+   * Klik kanan --> pilih *Run As* --> *Cucumber Feature* muncul definisi error seperti gambar dibawah:
    
    ![test](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_373/v1494761156/9_serwkr.png)
+   
+9. Buat file StepDefs.java didalam package **com.selenium.StepDef** , kemudian copy definisi error yang sebelumnya dirun cucumber .feature 
+
+```definisi
+
+```
+
