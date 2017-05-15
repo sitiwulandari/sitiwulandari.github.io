@@ -204,7 +204,7 @@ public class RunCukesLogin {
    
 9. Buat file **StepDefinitionLogin.java** didalam package **com.selenium.StepDef** , kemudian copy definisi error yang sebelumnya dirun cucumber .feature 
 
-			```java
+	```java
 			package cucumber.selenium.StepDef;
 
 			import java.net.MalformedURLException;
@@ -268,7 +268,7 @@ public class RunCukesLogin {
 
 			}
 
-			```
+	```
 10. Kemudian buat file **seleniumFuntion.java** didalam package **com.selenium.selenium**, file tersebut untuk mengatur driver browsernya dan membuat variabel-variabel setiap Step-stepnya. Berikut source code yang harus ditambahkan:
 
 	```java
