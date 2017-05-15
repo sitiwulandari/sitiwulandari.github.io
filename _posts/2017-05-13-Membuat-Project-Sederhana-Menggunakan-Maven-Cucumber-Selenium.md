@@ -122,6 +122,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
    
       ![new package](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_464/v1494741762/maven-eclipse/2017-05-14_13-00-11.png)
       
+      
    * Inputkan nama package seperti dibawah ini :
    
       **cucumber.selenium.features** , **cucumber.selenium.selenium** , **cucumber.selenium.StepDef**
@@ -129,6 +130,7 @@ title: Membuat Project Sederhana Menggunakan Maven Cucumber Selenium
       ![](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_383/v1494741766/maven-eclipse/2017-05-14_13-01-15.png)
       
 6. Kemudian buat Junit configurasi class untuk memanggil file feature dan file StepDef
+
    * Tambahkan file class **RunCukes.java** didalam package **cucumber.selenium.StepDef**
    * Klik New --> Class --> Name: *RunCukes*
    * Tambahkan source seperti dibawah ini:
@@ -151,6 +153,7 @@ public class RunCukesLogin {
 }
 ```
 7. Buat Scenario test didalam package **com.selenium.StepDef** 
+
    * Klik kanan dipackage **com.selenium.StepDef** 
    * Klik *New* --> *File* 
    ![new-file](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_456/v1494755421/maven-eclipse/2017-05-14_16-49-03.png)
@@ -181,19 +184,21 @@ Feature: As user want to check Screen and user can login
 
 ![scenario](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_385/v1494759050/maven-eclipse/2017-05-14_17-41-38.png)
 
-**Keterangan Scenario diatas :**
+ **Keterangan Scenario diatas :**
 
    1. User membuka halaman homepage github dan dapat mengklik *Sign in* tanpa username & pass
     
    2. User ingin kembali ke halaman homepage github yang *sebelumnya berada dihalaman Login github*
     
    3. User ingin Login dengan username dan password 
+   
 
 8. Run Scenario tersebut:
 
    * Klik kanan --> pilih *Run As* --> *Cucumber Feature* muncul definisi error seperti gambar dibawah:
    
    ![test](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_373/v1494761156/9_serwkr.png)
+   
    
 9. Buat file **StepDefinitionLogin.java** didalam package **com.selenium.StepDef** , kemudian copy definisi error yang sebelumnya dirun cucumber .feature 
 
