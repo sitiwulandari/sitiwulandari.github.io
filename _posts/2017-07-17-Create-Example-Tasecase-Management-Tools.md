@@ -6,7 +6,7 @@ title: Create Example tase case management tools with testlink
 ### Create Test Project
 
 *STEP 1* : Create Project --> Test project Manajement
-![create](http://res.cloudinary.com/deshqivuj/image/upload/v1502266269/testlink/Screenshot_12.png)
+![create](http://res.cloudinary.com/deshqivuj/image/upload/c_scale,w_434/v1502266269/testlink/Screenshot_12.png)
 
 *STEP 2* :  Create - Test Specification 
 
