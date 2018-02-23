@@ -4,7 +4,7 @@ title: Tentang Saya
 permalink: /about/
 ---
 
-Saya Siti Wulandari yang mencintai dunia QA Engineering
+Saya Siti Wulandari yang mencintai dunia QA
 
 ### Hubungi Saya
 
