@@ -4,7 +4,7 @@ title: Tentang Saya
 permalink: /about/
 ---
 
-Saya Siti Wulandari yang mencintai dunia QA
+Saya Siti Wulandari 
 
 ### Hubungi Saya
 
