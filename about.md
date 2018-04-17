@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Tentang Saya
-title: Tentang 
+title: About me
 permalink: /about/
 ---
 
 Saya Siti Wulandari 
 
-### Hubungi Saya
+### Contact
 
 [sitiiwulandari@gmail.com](mailto:sitiiwulandari@gmail.com)
