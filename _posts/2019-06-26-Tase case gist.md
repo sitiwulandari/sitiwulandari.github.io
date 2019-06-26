@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selenium WebDriver commands 
+title: Tase Case gist
 ---
 
 
