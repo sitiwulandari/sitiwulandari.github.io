@@ -1,4 +1,6 @@
 
+Here are list of Test Cases to verify the functionality of lift as mentioned below. After reviewing the below cases, you may come across more test cases depending upon how broadly you can think and create new scenarios.
+
 1. Ensure that the lift moves to specific floor as the button of the floor is pressed.
 
 2. Ensure that the lift stops when up/down buttons at particular floor are pressed
