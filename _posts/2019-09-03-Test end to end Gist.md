@@ -1,4 +1,4 @@
-## As User creating a end-to-end (e2e) tests for creating a gist
+# As User creating a end-to-end (e2e) tests for creating a gist
 
 *User Stories*
 As a user, I want to create a public gist. 
