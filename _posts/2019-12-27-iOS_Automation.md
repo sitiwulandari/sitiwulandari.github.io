@@ -12,16 +12,6 @@ BDD vs TDD vs ATDD
 Desired Capabilities 
 -----
 * Connect to device iOS
-
-
------------
-### create automation page 
-
-1. Scenario 
-2. Step definition
-3. Page 
-4. locator
-
 ```
 {
   "platfromName": "iOS",
@@ -33,3 +23,13 @@ Desired Capabilities
   "autoAccepAlerts": true
 }
 ```
+
+-----------
+### create automation page 
+
+1. Scenario 
+2. Step definition
+3. Page 
+4. locator
+
+
