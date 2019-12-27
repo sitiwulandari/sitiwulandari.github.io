@@ -21,3 +21,15 @@ Desired Capabilities
 2. Step definition
 3. Page 
 4. locator
+
+```
+{
+  "platfromName": "iOS",
+  "deviceName": "iPad Pro (9.7-inch) (13.3)",
+  "udid": "A4515511-91F7-408A-A193-C99CB49AF70C",
+  "app": "/Users/moka/Downloads/MokaSandBox.app",
+  "automationName": "XCUITest",
+  "platformVersion": "13.1",
+  "autoAccepAlerts": true
+}
+```
