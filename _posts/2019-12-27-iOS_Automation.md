@@ -9,3 +9,15 @@ BDD vs TDD vs ATDD
 * Appium dektop |  command line
 
   
+Desired Capabilities 
+-----
+* Connect to device iOS
+
+
+-----------
+### create automation page 
+
+1. Scenario 
+2. Step definition
+3. Page 
+4. locator
