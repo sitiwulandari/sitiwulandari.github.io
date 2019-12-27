@@ -36,9 +36,10 @@ Salah satu hal utama yang dituju BDD adalah detail implementasi dalam pengujian 
 
 **Penting** : Tes penerimaan diwajibkan untuk secara otomatis memeriksa apakah harapan pengguna akan terpenuhi atau tidak
 
-#### TDD Acceptance Test
+#### TDD Acceptance Test - lebih ke developer
 
 Test-Driven Development adalah proses ketika Anda menulis dan menjalankan tes Anda. Mengikutinya memungkinkan untuk memiliki cakupan tes yang sangat tinggi. Cakupan uji mengacu pada persentase kode Anda yang diuji secara otomatis, jadi angka yang lebih tinggi lebih baik. TDD juga mengurangi kemungkinan memiliki bug dalam pengujian Anda, yang sebaliknya bisa sulit dilacak.
+Example : create unit test
 
 * Proses TDD terdiri dari langkah-langkah berikut:
 
@@ -48,5 +49,7 @@ Test-Driven Development adalah proses ketika Anda menulis dan menjalankan tes An
 * Jalankan tes untuk memeriksa lulus tes baru
 * Opsional perbaiki kode Anda
 * Ulangi dari 1 kali
+
+### ATDD -> Acceptance Test Driven Development -> Lebih ke arah User PM 
 
 
